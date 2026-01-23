@@ -55,7 +55,7 @@
 
         <p class="text-center mt-4 text-gray-600">
             Don’t have an account?
-            <a href="{{ route('register.form') }}"
+            <a href="{{ route('reg.view') }}"
                class="text-indigo-600 hover:underline">
                 Register
             </a>

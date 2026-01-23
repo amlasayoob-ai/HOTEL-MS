@@ -6,9 +6,13 @@ use Illuminate\Http\Request;
 
 class ShihamControlller extends Controller
 {
-    public function adminpage()
+    public function apppage()
     {
-        return view('admin');
+        return view('app');
+    }
+
+    public function userReg()
+    {
+        return view('user-register');
     }
 }
-//fathima madu 

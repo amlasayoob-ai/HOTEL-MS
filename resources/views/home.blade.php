@@ -19,7 +19,7 @@
             <li><a href="#contact" class="hover:text-indigo-600">Contact</a></li> 
         </ul>
         <div class="space-x-3">
-            <a href="register" class="px-4 py-2 border border-indigo-600 text-indigo-600 rounded hover:bg-indigo-600 hover:text-white">Register</a>
+            <a href="login" class="px-4 py-2 border border-indigo-600 text-indigo-600 rounded hover:bg-indigo-600 hover:text-white">Login</a>
         </div>
     </div>
 </nav>

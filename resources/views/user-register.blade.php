@@ -11,7 +11,7 @@
     <h2 class="text-3xl font-bold text-center text-indigo-600 mb-6">Create Account</h2>
 
     <!-- FIXED: Changed route to 'admin.register.submit' -->
-    <form method="POST" action="{{ route('register.submit') }}">
+    <form method="POST" action="{{ route('reg.submit') }}">
         @csrf
 
         <div>
@@ -39,13 +39,8 @@
         </div>
 
         <div>
-            <label class="block text-gray-700 mb-1">Role</label>
-            <select name="role" class="w-full border p-2 mb-2 rounded">
-                <option value="user">User</option>
-                <option value="admin">Admin</option>
-                <option value="manager">Manager</option>
-                <option value="staff">Staff</option>
-            </select>
+            
+            <input type="hidden" name="role" placeholder="role" required>
         </div>
 
         <div>

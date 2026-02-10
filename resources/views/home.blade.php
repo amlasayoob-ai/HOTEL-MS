@@ -21,6 +21,10 @@
         <div class="space-x-3">
             <a href="login" class="px-4 py-2 border border-indigo-600 text-indigo-600 rounded hover:bg-indigo-600 hover:text-white">Login</a>
         </div>
+
+        <div class="space-x-3">
+            <a href="user-register" class="px-4 py-2 border border-indigo-600 text-indigo-600 rounded hover:bg-indigo-600 hover:text-white">Register</a>
+        </div>
     </div>
 </nav>
 

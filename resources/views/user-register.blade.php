@@ -11,7 +11,7 @@
     <h2 class="text-3xl font-bold text-center text-indigo-600 mb-6">Create Account</h2>
 
     <!-- FIXED: Changed route to 'admin.register.submit' -->
-    <form method="POST" action="{{ route('reg.submit') }}">
+    <form method="POST" action="{{ route('register.store') }}">
         @csrf
 
         <div>
